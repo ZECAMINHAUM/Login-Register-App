@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitys.RegisterActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_color_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="40dp"/>
+
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="60dp"
+        android:hint="Email"
+        android:backgroundTint="@color/grey"
+        android:drawableLeft="@drawable/baseline_email_white"
+        android:textColorHint="@color/white" />
+
+
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dp"
+        android:hint="Username"
+        android:backgroundTint="@color/grey"
+        android:drawableLeft="@drawable/baseline_person_white"
+        android:textColorHint="@color/white" />
+
+
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dp"
+        android:hint="Password"
+        android:backgroundTint="@color/grey"
+        android:drawableLeft="@drawable/baseline_lock_white"
+        android:textColorHint="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:paddingTop="40dp">
+
+        <Button
+            android:id="@+id/bt_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textAllCaps="true"
+            android:background="@drawable/rounded_button"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
